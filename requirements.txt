@@ -7,3 +7,4 @@ tensorflow
 numpy>=1.19.5,<=1.23
 regex
 pandas>=1.2.3
+openpyxl
