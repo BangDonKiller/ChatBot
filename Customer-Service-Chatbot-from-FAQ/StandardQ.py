@@ -1,11 +1,9 @@
 from elasticsearch import Elasticsearch
 from openpyxl import load_workbook
 import json
-es = Elasticsearch(
-    cloud_id="87d3aa6e31a34138a95a6be5e013a02c:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJGMyMDhmMDhlNzYzNzRkNTE4ZGNhODBiNTA5ZmFlNTUxJDcyODFhMmIwYzNlZjRmODg5YjhjMjBlNmI5NDUyZjhk",
-    # basic_auth=("elastic", "Aa110502510++")
-    http_auth=('parisdata@gmail.com', 'Aa1478963250++') 
-)
+es = Elasticsearch()
+
+# es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 import warnings
 warnings.filterwarnings("ignore")
 

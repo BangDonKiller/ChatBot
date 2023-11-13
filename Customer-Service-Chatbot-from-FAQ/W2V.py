@@ -43,6 +43,9 @@ def Run_Single_Query(query,Model):
     
     #尋找切割後的詞的相似詞
     Keyword=Seg_Similar()
+    
+    
+    # 11/1
 
     #所有的詞拿去match
     for items in Keyword:
