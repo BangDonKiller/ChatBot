@@ -1,0 +1,9 @@
+# tensorflow==2.4.1
+# transformer==4.5.0
+# transformer
+# regex==2.2.1
+elasticsearch==7.10.1
+tensorflow
+numpy>=1.19.5,<=1.23
+regex
+pandas>=1.2.3
