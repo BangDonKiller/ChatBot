@@ -3,7 +3,7 @@ import Bert as bert
 
 def RunBert(UserQ):
     model,tokenizer=bert.bert_model()
-    data=bert.pd.read_excel("./chatbot/Customer-Service-Chatbot-from-FAQ/QA/Total_User_Q.xlsx",engine='openpyxl',header=None, sheet_name='Std_Q_All', skiprows=[0])
+    data=bert.pd.read_excel("./Customer-Service-Chatbot-from-FAQ/QA/Total_User_Q.xlsx",engine='openpyxl',header=None, sheet_name='Std_Q_All', skiprows=[0])
     data.columns=["questions","answers"]
     data=bert.data_label(data)
     buf=list()

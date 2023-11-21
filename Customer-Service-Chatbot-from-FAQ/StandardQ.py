@@ -53,4 +53,4 @@ def Put_All_StdQ_to_Els():
     StdQ_to_Elastic(Std_place)
 
 
-Put_All_StdQ_to_Els()
+# Put_All_StdQ_to_Els()
